@@ -6,7 +6,12 @@ body {
   margin:0;
   padding:0;
   font: normal 16px tahoma, tahoma, sans-serif;
-  background-color: #afb3b4 !important;
+  background-color: #fdfdfd !important;
+  color: #353535;
+}
+
+p {
+  color: #717171;
 }
 
 .bg {
@@ -26,6 +31,13 @@ body {
 .navbar {
   width: 100%;
   z-index: 2 !important;
+  background-color: transparent;
+}
+
+.navbar-gray {
+  width: 100%;
+  z-index: 2 !important;
+  background-color: #5b6b75;
 }
 
 .navbar-nav a {
@@ -52,7 +64,7 @@ h1 {
   font-size: 56px;
 }
 
-p {
+.content p {
   color: #fff;
 }
 
@@ -72,7 +84,7 @@ p {
 .carousel-indicators {
   bottom: 10% !important;
 }
-.navbar-nav a
+
 footer a {
   color: #ffffff;
 }
@@ -102,3 +114,41 @@ footer {
   padding-bottom: 10px;
 }
 
+.section-image {
+  width: 100%;
+}
+
+.card {
+  margin: 15px;
+}
+
+.card-image {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.card-title {
+  padding: 1rem 1.25rem 0;
+}
+
+.card-body {
+  padding: 0 1.25rem 1.25rem !important;
+}
+
+.form-control {
+  margin: 15px !important;
+}
+
+.media-icon {
+  width: 25px;
+}
+
+.jumbotron {
+  background-size: cover;
+  border-radius: 0 !important;
+}
+
+.jumbotron p {
+  color: white;
+}
